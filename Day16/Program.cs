@@ -123,7 +123,7 @@ MO=0;IF,HV";
             //var max = Step(startNode, new HashSet<Node>(), MAX, 2, ids);
             //Console.WriteLine(max);
 
-            var res = CCalculateWeights(graph, ids[startNode], 30, ids, byids);
+            var res = CalculateWeights(graph, ids[startNode], 30, ids, byids);
         }
 
         private static int MAX = 26;
